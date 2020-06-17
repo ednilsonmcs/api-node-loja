@@ -1,13 +1,9 @@
-# api-node-loja
+## Configuração do ambiente
 
-# Instalar Dependências
-npm install
+1. Instalar Dependências
+1.1 npm install
 
-# Criar database loja caso não exista
-npm run postinstall
-
-# Criar tabelas
-npm run knex:migrate
-
-# Criar popular tabelas
-npm run knex:seed
+2. Criação do banco, tabelas e dados
+2.1 npm run postinstall
+2.2 npm run knex:migrate
+2.3 npm run knex:seed
